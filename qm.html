@@ -1,0 +1,112 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Signin Kicker Control</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="static/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="static/css/custom.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+     
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+     
+          <!-- Be sure to leave the brand out there if you want it shown -->
+          <a class="brand" href="/">kickerControl</a>
+     
+          <!-- Everything you want hidden at 940px or less, place within here -->
+          <div class="nav-collapse collapse">
+            <!-- .nav, .navbar-search, .navbar-form, etc -->
+            <ul class="nav">
+              <li><a href="/">Statistics</a></li>
+              <li><a href="/">Userlist</a></li>
+              <li><a href="/">Quick Match</a></li>
+            </ul>
+           <!--  <form class="navbar-form pull-right">
+              <input class="span2" type="text" placeholder="Email">
+              <input class="span2" type="password" placeholder="Password">
+              <button type="submit" class="btn">Sign in</button>
+            </form> -->
+              <ul class="nav pull-right">
+                <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-user"></i> Profile <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="/">Details</a></li>
+                  <li class="divider"></li>
+                  <li><a href="/">Logout</a></li>
+                </ul>
+              </li>
+              </ul>
+          </div>
+     
+        </div>
+      </div>
+    </div>    
+    <div class="container field">
+    <h3 class="fieldtitle">Choose Your Teams</h3>
+
+    <form action="/kickercontrol-theme/submit.html">
+        <select class="center">
+          <option value="">select</option>
+          <option value="pid">Mateusz</option>
+          <option value="pid">Fernando</option>
+          <option value="pid">Robert</option>
+          <option value="pid">Felix</option>
+          <option value="pid">Henning</option>
+        </select>
+        <select class="center">
+          <option value="">select</option>
+          <option value="pid">Mateusz</option>
+          <option value="pid">Fernando</option>
+          <option value="pid">Robert</option>
+          <option value="pid">Felix</option>
+          <option value="pid">Henning</option>
+        </select>
+        <input class="input-medium" type="text" placeholder="Score Team 1"><span>&nbsp;:&nbsp;</span><input class="input-medium" type="text" placeholder="Score Team 2">
+        <select class="center">
+          <option value="">select</option>
+          <option value="pid">Mateusz</option>
+          <option value="pid">Fernando</option>
+          <option value="pid">Robert</option>
+          <option value="pid">Felix</option>
+          <option value="pid">Henning</option>
+        </select>
+        <select class="center">
+          <option value="">select</option>
+          <option value="pid">Mateusz</option>
+          <option value="pid">Fernando</option>
+          <option value="pid">Robert</option>
+          <option value="pid">Felix</option>
+          <option value="pid">Henning</option>
+        </select>
+        <button class="btn btn-danger btn-large btn-block stick-bottom" type="submit">Submit Match</button>
+      </form>
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+  </body>
+</html>
